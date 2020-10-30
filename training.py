@@ -12,7 +12,7 @@ Created on Sat Jan  5 20:59:11 2019
 @author: uba_p
 """
 
-#importación de librerias 
+""" Importación de librerías """
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
