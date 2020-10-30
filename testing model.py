@@ -8,20 +8,8 @@ Created on Sat Jan 12 13:03:48 2019
 
 #importación de librerias 
 import numpy as np
-import os
-import re
-import matplotlib.pyplot as plt
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import classification_report
-import keras
-from keras.models import Sequential,Input,Model
-from keras.layers import Dense, Dropout, Flatten
-from keras.layers import Conv2D, MaxPooling2D
-from keras.layers.normalization import BatchNormalization
-from keras.layers.advanced_activations import LeakyReLU
 import glob
 from PIL import Image
-import cv2
 
 # Leer JSON y crear el modelo
 
